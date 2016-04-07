@@ -1,0 +1,30 @@
+{
+  "name": "iradiator-widget-ping",
+  "version": "1.0.0",
+  "description": "An iradiator-widget to display the result of the ping-plugin.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iradiator",
+    "widget",
+    "ping"
+  ],
+  "author": "Raphael Pigulla <pigulla@four66.com>",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigulla/iradiator-widget-ping.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pigulla/iradiator-widget-ping/issues"
+  },
+  "peerDependencies": {
+    "immutable": "3",
+    "react-immutable-proptypes": "1.3.0 - 1",
+    "react": "0.14",
+    "iradiator": "0",
+    "iradiator-plugin-ping": "1"
+  },
+  "homepage": "https://github.com/pigulla/iradiator-widget-ping#readme"
+}
