@@ -1,5 +1,3 @@
-'use strict';
-
 import Settings from './src/Settings'
 import Widget from './src/Widget'
 

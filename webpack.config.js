@@ -48,12 +48,5 @@ module.exports = {
         libraryTarget: 'commonjs2',
         filename: 'bundle.js',
         path: path.join(__dirname, 'build')
-    },
-    plugins: [
-        // new webpack.optimize.UglifyJsPlugin({
-        //     compress: {
-        //         warnings: false
-        //     }
-        // })
-    ]
+    }
 };
