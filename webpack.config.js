@@ -39,12 +39,13 @@ module.exports = {
     externals: [
         function (context, request, callback) {
             if (externals.has(request) || /^iradiator-plugin-/.test(request)) {
-                return callback(null, `require("${request}")`);
+                return callback(null, request);
             }
             callback();
         }
     ],
     output: {
+        libraryTarget: 'commonjs2',
         filename: 'bundle.js',
         path: path.join(__dirname, 'build')
     },
