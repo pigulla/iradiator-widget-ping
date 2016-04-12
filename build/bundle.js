@@ -1,5 +1,5 @@
 /*!
- * Compilation date:  2016-04-12T11:44:26.493Z
+ * Compilation date:  2016-04-12T12:22:52.838Z
  * Widget version:    1.0.0
  * Iradiator version: 0.0.1
  * Node.js version:   v5.10.1
@@ -185,7 +185,7 @@ module.exports =
 	        value: function render() {
 	            return _react2.default.createElement(
 	                'div',
-	                null,
+	                { className: 'widget-ping' },
 	                _react2.default.createElement(
 	                    'h4',
 	                    null,

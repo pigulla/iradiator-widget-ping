@@ -25,7 +25,7 @@ export default class PingWidget extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="widget-ping">
                 <h4>{this.props.settings.title}</h4>
                 <ul>
                     {Object.keys(this.props.data).map(::this.renderData)}
