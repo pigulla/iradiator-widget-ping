@@ -1,3 +1,9 @@
+/*!
+ * Compilation date:  2016-04-12T09:43:59.641Z
+ * Widget version:    1.0.0
+ * Iradiator version: 0.0.1
+ * Node.js version:   v5.10.1
+ */
 module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -45,13 +51,6 @@ module.exports =
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(1);
-
-
-/***/ },
-/* 1 */
-/***/ function(module, exports, __webpack_require__) {
-
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -59,11 +58,11 @@ module.exports =
 	});
 	exports.Widget = exports.Settings = undefined;
 
-	var _Settings = __webpack_require__(2);
+	var _Settings = __webpack_require__(1);
 
 	var _Settings2 = _interopRequireDefault(_Settings);
 
-	var _Widget = __webpack_require__(4);
+	var _Widget = __webpack_require__(3);
 
 	var _Widget2 = _interopRequireDefault(_Widget);
 
@@ -73,7 +72,7 @@ module.exports =
 	exports.Widget = _Widget2.default;
 
 /***/ },
-/* 2 */
+/* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -84,7 +83,7 @@ module.exports =
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Immutable = __webpack_require__(3);
+	var Immutable = __webpack_require__(2);
 
 	var Constructor = Immutable.Record({
 	    title: null
@@ -106,13 +105,13 @@ module.exports =
 	module.exports.Record = Record;
 
 /***/ },
-/* 3 */
+/* 2 */
 /***/ function(module, exports) {
 
 	module.exports = require("immutable");
 
 /***/ },
-/* 4 */
+/* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -123,19 +122,19 @@ module.exports =
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _reactImmutableProptypes = __webpack_require__(5);
+	var _reactImmutableProptypes = __webpack_require__(4);
 
 	var _reactImmutableProptypes2 = _interopRequireDefault(_reactImmutableProptypes);
 
-	var _react = __webpack_require__(6);
+	var _react = __webpack_require__(5);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Settings = __webpack_require__(2);
+	var _Settings = __webpack_require__(1);
 
-	var _Descriptor = __webpack_require__(7);
+	var _Descriptor = __webpack_require__(6);
 
-	var _Data = __webpack_require__(8);
+	var _Data = __webpack_require__(7);
 
 	var _Data2 = _interopRequireDefault(_Data);
 
@@ -202,25 +201,25 @@ module.exports =
 	exports.default = PingWidget;
 
 /***/ },
-/* 5 */
+/* 4 */
 /***/ function(module, exports) {
 
 	module.exports = require("react-immutable-proptypes");
 
 /***/ },
-/* 6 */
+/* 5 */
 /***/ function(module, exports) {
 
 	module.exports = require("react");
 
 /***/ },
-/* 7 */
+/* 6 */
 /***/ function(module, exports) {
 
 	module.exports = require("iradiator-plugin-ping/Descriptor");
 
 /***/ },
-/* 8 */
+/* 7 */
 /***/ function(module, exports) {
 
 	module.exports = require("iradiator-plugin-ping/schema/Data");

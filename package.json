@@ -2,10 +2,7 @@
   "name": "iradiator-widget-ping",
   "version": "1.0.0",
   "description": "An iradiator-widget to display the result of the ping-plugin.",
-  "main": "build/bundle.js",
-  "scripts": {
-    "build": "webpack"
-  },
+  "main": "src/index.js",
   "keywords": [
     "iradiator",
     "widget",
@@ -35,10 +32,5 @@
     "babel-preset-react": "6.5.0",
     "babel-preset-stage-0": "6.5.0",
     "webpack": "1.12.14"
-  },
-  "externalWebpackDependencies": [
-    "react",
-    "react-immutable-proptypes",
-    "immutable"
-  ]
+  }
 }
